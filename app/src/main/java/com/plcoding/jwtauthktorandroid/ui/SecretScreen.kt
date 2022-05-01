@@ -9,6 +9,7 @@ import androidx.compose.ui.Modifier
 import com.ramcosta.composedestinations.annotation.Destination
 
 @Composable
+@Destination
 fun SecretScreen() {
     Box(
         modifier = Modifier.fillMaxSize(),
